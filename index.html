@@ -5,11 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
+        <nav>
+            <p>Inicio do nav</p>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
         <h1>Sobre mim</h1>
         <p>Inicio do header</p>
         <p>Parágrafo sobre qualificações</p>
@@ -18,36 +26,39 @@
             dolores ea, ullam, libero hic nesciunt iste distinctio nulla quibusdam velit impedit aperiam nihil sit
             obcaecati exercitationem?</p>
     </header>
-    <nav>
-        <p>Inicio do nav</p>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
-    </nav>
-    <aside>
-        <p>inicoo aside</p>
-        <img src="html-5.png" alt="">
-        <ul>
-            <li>Github</li>
-            <li>LinkedIn</li>
-        </ul>
-    </aside>
-    <main>
-        <h2>Linguagens</h2>
-        <p>Inicio do main</p>
-        <article>
-            <p>Inicio do article</p>
-            <div>
-                <p> Cards linguagens</p>
-            </div>
-        </article>
+    <div class="container">
+        <div class="container-aside">
+            <aside>
+                <p>inicio aside</p>
+                <img src="html-5.png" alt="">
+                <ul>
+                    <li>Github</li>
+                    <li>LinkedIn</li>
+                </ul>
+            </aside>
+        </div>
+        <div class="container-main">
+            <main>
+                <h2>Linguagens</h2>
+                <p>Inicio do main</p>
+                <article>
+                    <p>Inicio do article</p>
+                    <div>
+                        <p> Cards linguagens</p>
+                        <p> Cards linguagens</p>
+                        <p> Cards linguagens</p>
+                        <p> Cards linguagens</p>
+                        <p> Cards linguagens</p>
+                        <p> Cards linguagens</p>
+                    </div>
+                </article>
 
-        <footer>
-            <p>Inicio do footer</p>
-        </footer>
-    </main>
+                <footer>
+                    <p>Inicio do footer</p>
+                </footer>
+            </main>
+        </div>
+    </div>
 </body>
 
 </html>
