@@ -1,54 +1,79 @@
-*{
+* {
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
 }
-header{
-    background-color: rgb(186, 113, 255);
+
+header {
     border: 2px solid black;
 }
 
-img{
+img {
     height: 100px;
     width: 90px;
 }
-.container{
+
+.container {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     color: white;
     gap: 10px;
 }
-.container-main{
+
+.container-main {
     border: 2px solid rgb(0, 0, 0);
     border-radius: 25px;
     padding: 5px;
     background-color: rgb(20, 17, 51);
 }
-.container-aside{
+
+.container-aside {
     border: 2px solid black;
     border-radius: 25px;
     padding: 10px;
     background-color: rgb(20, 17, 51);
 
 }
-nav ul{
+
+nav ul {
     display: inline-flex;
     gap: 25px;
     padding: 5px;
     list-style: none;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(87, 76, 76);
     justify-content: center;
     border-radius: 10px;
 }
+
 nav {
     display: flex;
     justify-content: end;
 }
-.sobre{
+
+.sobre {
     background-color: rgb(91, 226, 114);
 }
-.cards{
+
+.cards {
     display: flex;
-    background-color: rgb(240, 0, 220);
     justify-content: space-around;
+    border-radius: 25px;
+}
+
+.card1 {
+    border: 2px solid rgb(88, 18, 18);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.card2 {
+    border: 2px solid rgb(88, 18, 18);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.card3 {
+    border: 2px solid rgb(88, 18, 18);
+    border-radius: 25px;
+    padding: 10px;
 }
