@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .cormorant-garamond-garamond {
@@ -10,98 +10,142 @@
   font-weight: 350;
   font-style: normal;
 }
-body{
-    background-color: hsl(0, 0%, 0%);
+body {
+  background-color: hsl(0, 0%, 0%);
 }
 
 img {
-    height: 100px;
-    width: 90px;
+  height: 100px;
+  width: 90px;
 }
-.foto img{
-    object-fit: cover;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
-.foto{
-    margin-top: 10px;
-    background-color: hsl(240, 1%, 25%) 3%;
-}
+
 .container {
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    gap: 10px;
-    max-width: 80%;
-    font-family:cursive;
-    margin: 10% 10% 10% 10%;
+  display: flex;
+  color: white;
+  gap: 30px;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-block: 60px;
 }
 
 .container-main {
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 25px;
-    padding: 10px;
-    background-color: hsl(240, 2%, 12%);
-    
+  border: 1px solid rgb(75, 74, 74);
+  border-radius: 1rem;
+  padding: 10px;
+  background-color: hsl(240, 2%, 12%);
 }
 
 .container-aside {
-    border: 2px solid black;
-    border-radius: 25px;
-    padding: 10px;
-    background-color:  hsl(240, 2%, 12%);
-    align-self: stretch; 
+  border: 1px solid rgb(75, 74, 74);
+  border-radius: 1rem;
+  padding: 40px 20px;
+  background-color: hsl(240, 2%, 12%);
+  align-self: stretch;
 }
-
+.container-img {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(75, 74, 74);
+  padding-bottom: 1.5rem;
+}
+.foto-perfil {
+  background-color: hsl(240, 1%, 25%) 3%;
+}
+.foto-perfil img {
+  object-fit: cover;
+  border-radius: 1.5rem;
+  width: 125px;
+  height: 125px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.nome {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5rem;
+}
+.label {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: hsl(265, 24%, 31%);
+}
 nav ul {
-    display: inline-flex;
-    gap: 25px;
-    padding: 5px;
-    list-style: none;
-    background-color:hsl(265, 24%, 31%);
-    justify-content: center;
-    border-radius: 10px;
+  display: inline-flex;
+  gap: 25px;
+  padding: 5px;
+  list-style: none;
+  background-color: hsl(265, 24%, 31%);
+  justify-content: center;
+  border-radius: 10px;
 }
-a{
-      color: white;
+a {
+  color: white;
 }
-li{
-    list-style: none;
-
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-
+.li-info {
+  display: flex;
+  flex-direction: column;
+}
+.li-info span:first-child {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  color: rgb(131, 130, 130);
+}
+aside ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 1rem;
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  background-color: hsl(265, 24%, 31%);
+  border-radius: 8px;
+}
 nav {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 
 .sobre {
-    /* background-color: rgb(91, 226, 114); */
-    font-family: "Cormorant Garamond", serif;
+  /* background-color: rgb(91, 226, 114); */
+  font-family: "Cormorant Garamond", serif;
 }
 
 .cards {
-    display: flex;
-    gap: 10px;
-    border-radius: 25px;
-    margin-top: 10px;
-    padding: 15px;
+  display: flex;
+  gap: 10px;
+  border-radius: 25px;
+  margin-top: 10px;
+  padding: 15px;
 }
 
 .card1 {
-    border-radius: 25px;
-    padding: 10px;
-    background-color: hsl(265, 24%, 31%);
+  border-radius: 25px;
+  padding: 10px;
+  background-color: hsl(265, 24%, 31%);
 }
 .card2 {
-    background-color: hsl(265, 24%, 31%);
-    border-radius: 25px;
-    padding: 10px;
+  background-color: hsl(265, 24%, 31%);
+  border-radius: 25px;
+  padding: 10px;
 }
 
 .card3 {
-    background-color: hsl(265, 24%, 31%);
-    border-radius: 25px;
-    padding: 10px;
+  background-color: hsl(265, 24%, 31%);
+  border-radius: 25px;
+  padding: 10px;
 }
