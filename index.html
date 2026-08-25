@@ -1,162 +1,218 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="style.css" />
-
+    <script src="funcao.js"></script>
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
     </style>
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="container">
-      <div class="container-aside">
-        <aside>
-          <div class="container-img">
-            <div class="foto-perfil">
-              <img src="larissafoto.jfif" alt="" />
-            </div>
-            <div class="info">
-              <span class="nome">Larissa Kovalsikoski</span>
-              <div class="label">
-                <span>Aspirante a programadora</span>
-              </div>
-            </div>
-          </div>
-          <ul>
-            <li>
-              <div class="icon">icon</div>
-              <div class="li-info">
-                <span>Email</span>
-                <span>larissadias.k8@gmail.com</span>
-              </div>
-            </li>
-            <li>
-              <div class="icon">icon</div>
-              <div class="li-info">
-                <span>Telefone</span>
-                <span>(51) 99999-9999</span>
-              </div>
-            </li>
-            <li>
-              <div class="icon">icon</div>
-              <div class="li-info">
-                <span>Github</span>
-                <span>github.com/larissadias</span>
-              </div>
-            </li>
-            <li>
-              <div class="icon">icon</div>
-              <div class="li-info">
-                <span>LinkedIn</span>
-                <span>linkedin.com/in/larissadias</span>
-              </div>
-            </li>
-            <li>
-              <div class="icon">icon</div>
-              <div class="li-info">
-                <span>LinkedIn</span>
-                <span>linkedin.com/in/larissadias</span>
-              </div>
-            </li>
-          </ul>
-        </aside>
-      </div>
-      <div class="container-main">
-        <header>
-          <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="sobre.html">Sobre</a></li>
-              <li><a href="contato.html">Contato</a></li>
-            </ul>
-          </nav>
-          <div class="sobre">
-            <h1>Sobre mim</h1>
-            <div class="line"></div>
-            <div class="sobre-texto">
-              <p>
-                Estudante de Sistemas para Internet no IFRS, apaixonada por
-                tecnologia e desenvolvimento web. Durante um ano e meio, tive a
-                oportunidade de estudar programação web no Instituto da
-                Oportunidade Social, em parceria com a Dell Brasil, adquirindo
-                conhecimentos em HTML, CSS e JavaScript. Atualmente atendo
-                crianças em situação de vulnerabilidade social, introduzindo
-                conceitos de tecnologia de forma lúdica e acessível. Amante dos
-                livros, tenho grande interesse na área da educação. Acredito no
-                poder do conhecimento e na tecnologia como ferramenta para
-                transformar realidades.
-              </p>
-            </div>
-          </div>
-        </header>
-        <main>
-          <article>
-            <h2>Conhecimentos</h2>
-            <div class="cards">
-              <div class="card">
-                <img src="java.png" alt="" />
-                <div class="card-text">
-                  <span>Java</span>
-                  <p>Conceitos de Orientação a Objetos</p>
+        <div class="container-aside">
+            <aside>
+                <div class="container-img">
+                    <div class="foto-perfil">
+                        <img src="/images/larissafoto.jfif" alt="" />
+                    </div>
+                    <div class="info">
+                        <span class="nome">Larissa Kovalsikoski</span>
+                        <div class="label">
+                            <span>Aspirante a programadora</span>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <ul>
+                    <li>
+                        <div class="icon">
 
-              <div class="card">
-                <img src="iconc.png" alt="" />
-                <div class="card-text">
-                  <span>C</span>
-                  <p>Estruturas conficionais</p>
+                            <svg class="icon-email" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" />
+                                <rect x="3" y="5" width="18" height="14" rx="2" />
+                            </svg>
+                        </div>
+                        <div class="li-info">
+                            <span>Email</span>
+                            <span><a href="mailto:seuemail@dominio.com"
+                                    class="link-contato">larissadias.k8@gmail.com</a></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <svg class="icon-phone" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8 2C6.34315 2 5 3.34315 5 5V19C5 20.6569 6.34315 22 8 22H16C17.6569 22 19 20.6569 19 19V5C19 3.34315 17.6569 2 16 2H8ZM7 5C7 4.44772 7.44772 4 8 4H16C16.5523 4 17 4.44772 17 5V19C17 19.5523 16.5523 20 16 20H8C7.44772 20 7 19.5523 7 19V5ZM10 17C9.44772 17 9 17.4477 9 18C9 18.5523 9.44772 19 10 19H14C14.5523 19 15 18.5523 15 18C15 17.4477 14.5523 17 14 17H10Z" />
+                            </svg>
+                        </div>
+                        <div class="li-info">
+                            <span>Telefone</span>
+                            <span><a href="tel:51980209763" class="link-contato">(55) 51 980209763</a></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <svg class="icon-github" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.0744 2.9938C4.13263 1.96371 4.37869 1.51577 5.08432 1.15606C5.84357 0.768899 7.04106 0.949072 8.45014 1.66261C9.05706 1.97009 9.11886 1.97635 10.1825 1.83998C11.5963 1.65865 13.4164 1.65929 14.7213 1.84164C15.7081 1.97954 15.7729 1.97265 16.3813 1.66453C18.3814 0.651679 19.9605 0.71795 20.5323 1.8387C20.8177 2.39812 20.8707 3.84971 20.6494 5.04695C20.5267 5.71069 20.5397 5.79356 20.8353 6.22912C22.915 9.29385 21.4165 14.2616 17.8528 16.1155C17.5801 16.2574 17.3503 16.3452 17.163 16.4167C16.5879 16.6363 16.4133 16.703 16.6247 17.7138C16.7265 18.2 16.8491 19.4088 16.8973 20.4002C16.9844 22.1922 16.9831 22.2047 16.6688 22.5703C16.241 23.0676 15.6244 23.076 15.2066 22.5902C14.9341 22.2734 14.9075 22.1238 14.9075 20.9015C14.9075 19.0952 14.7095 17.8946 14.2417 16.8658C13.6854 15.6415 14.0978 15.185 15.37 14.9114C17.1383 14.531 18.5194 13.4397 19.2892 11.8146C20.0211 10.2698 20.1314 8.13501 18.8082 6.83668C18.4319 6.3895 18.4057 5.98446 18.6744 4.76309C18.7748 4.3066 18.859 3.71768 18.8615 3.45425C18.8653 3.03823 18.8274 2.97541 18.5719 2.97541C18.4102 2.97541 17.7924 3.21062 17.1992 3.49805L16.2524 3.95695C16.1663 3.99866 16.07 4.0147 15.975 4.0038C13.5675 3.72746 11.2799 3.72319 8.86062 4.00488C8.76526 4.01598 8.66853 3.99994 8.58215 3.95802L7.63585 3.49882C7.04259 3.21087 6.42482 2.97541 6.26317 2.97541C5.88941 2.97541 5.88379 3.25135 6.22447 4.89078C6.43258 5.89203 6.57262 6.11513 5.97101 6.91572C5.06925 8.11576 4.844 9.60592 5.32757 11.1716C5.93704 13.1446 7.4295 14.4775 9.52773 14.9222C10.7926 15.1903 11.1232 15.5401 10.6402 16.9905C10.26 18.1319 10.0196 18.4261 9.46707 18.4261C8.72365 18.4261 8.25796 17.7821 8.51424 17.1082C8.62712 16.8112 8.59354 16.7795 7.89711 16.5255C5.77117 15.7504 4.14514 14.0131 3.40172 11.7223C2.82711 9.95184 3.07994 7.64739 4.00175 6.25453C4.31561 5.78028 4.32047 5.74006 4.174 4.83217C4.09113 4.31822 4.04631 3.49103 4.0744 2.9938Z" />
+                                <path
+                                    d="M3.33203 15.9454C3.02568 15.4859 2.40481 15.3617 1.94528 15.6681C1.48576 15.9744 1.36158 16.5953 1.66793 17.0548C1.8941 17.3941 2.16467 17.6728 2.39444 17.9025C2.4368 17.9449 2.47796 17.9858 2.51815 18.0257C2.71062 18.2169 2.88056 18.3857 3.05124 18.5861C3.42875 19.0292 3.80536 19.626 4.0194 20.6962C4.11474 21.1729 4.45739 21.4297 4.64725 21.5419C4.85315 21.6635 5.07812 21.7352 5.26325 21.7819C5.64196 21.8774 6.10169 21.927 6.53799 21.9559C7.01695 21.9877 7.53592 21.998 7.99999 22.0008C8.00033 22.5527 8.44791 23.0001 8.99998 23.0001C9.55227 23.0001 9.99998 22.5524 9.99998 22.0001V21.0001C9.99998 20.4478 9.55227 20.0001 8.99998 20.0001C8.90571 20.0001 8.80372 20.0004 8.69569 20.0008C8.10883 20.0026 7.34388 20.0049 6.67018 19.9603C6.34531 19.9388 6.07825 19.9083 5.88241 19.871C5.58083 18.6871 5.09362 17.8994 4.57373 17.2891C4.34391 17.0194 4.10593 16.7834 3.91236 16.5914C3.87612 16.5555 3.84144 16.5211 3.80865 16.4883C3.5853 16.265 3.4392 16.1062 3.33203 15.9454Z" />
+                            </svg>
+                        </div>
+                        <div class="li-info">
+                            <span>Github</span>
+                            <span><a href="https://github.com/larissa-dias3/" target="_blank"
+                                    rel="noopener noreferrer">github.com/larissa-dias3</a></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <svg class="icon-linkedin" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z" />
+                                <path
+                                    d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z" />
+                                <path
+                                    d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z" />
+                            </svg>
+                        </div>
+                        <div class="li-info">
+                            <span>LinkedIn</span>
+                            <span><a href="https://www.linkedin.com/in/larissakovalsikoski/" target="_blank"
+                                    rel="noopener noreferrer">linkedin.com/in/larissakovalsikoski</a></span>
+                        </div>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+        <div class="container-main">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#linguagens" onclick="destacarElemento('linguagens')">Linguagens</a></li>
+                        <li><a href="sobre.html">Conhecimentos</a></li>
+                        <li><a href="contato.html">Projetos</a></li>
+                    </ul>
+                </nav>
+                <div class="sobre">
+                    <h1>Sobre mim</h1>
+                    <div class="line"></div>
+                    <div class="sobre-texto">
+                        <p>
+                            Estudante de Sistemas para Internet no IFRS, apaixonada por
+                            tecnologia e desenvolvimento web. Durante um ano e meio, tive a
+                            oportunidade de estudar programação web no Instituto da
+                            Oportunidade Social, em parceria com a Dell Brasil, adquirindo
+                            conhecimentos em HTML, CSS e JavaScript. Atualmente atendo
+                            crianças em situação de vulnerabilidade social, introduzindo
+                            conceitos de tecnologia de forma lúdica e acessível. Amante dos
+                            livros, tenho grande interesse na área da educação. Acredito no
+                            poder do conhecimento e na tecnologia como ferramenta para
+                            transformar realidades.
+                        </p>
+                    </div>
                 </div>
-              </div>
+            </header>
+            <main>
+                <article id="linguagens" class="secao-linguagens">
+                    <h2>Linguagens</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <svg class="icon-java" viewBox="0 0 192.756 192.756" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M80.372 101.729s-4.604 2.679 3.28 3.584c9.554 1.091 14.434.934 24.959-1.057 0 0 2.771 1.735 6.639 3.236-23.601 10.113-53.413-.585-34.878-5.763zM77.487 88.532s-5.165 3.823 2.726 4.639c10.206 1.054 18.262 1.14 32.211-1.544 0 0 1.926 1.955 4.957 3.023-28.531 8.345-60.307.657-39.894-6.118z" />
+                                <path
+                                    d="M101.797 66.143c5.818 6.697-1.525 12.72-1.525 12.72s14.766-7.621 7.984-17.168c-6.332-8.899-11.189-13.32 15.102-28.566-.001-.001-41.27 10.303-21.561 33.014z" />
+                                <path
+                                    d="M133.01 111.491s3.408 2.81-3.754 4.983c-13.619 4.125-56.694 5.369-68.659.164-4.298-1.872 3.766-4.467 6.303-5.015 2.646-.572 4.156-.468 4.156-.468-4.783-3.368-30.916 6.615-13.272 9.479 48.112 7.801 87.704-3.512 75.226-9.143zM82.587 74.857s-21.908 5.205-7.757 7.097c5.977.799 17.883.615 28.982-.316 9.068-.761 18.17-2.389 18.17-2.389s-3.195 1.371-5.51 2.949c-22.251 5.853-65.229 3.127-52.855-2.856 10.462-5.061 18.97-4.485 18.97-4.485zM121.891 96.824c22.617-11.75 12.16-23.044 4.859-21.522-1.785.373-2.586.695-2.586.695s.666-1.042 1.932-1.49c14.441-5.075 25.545 14.972-4.656 22.911-.001 0 .347-.314.451-.594z" />
+                                <path
+                                    d="M108.256 8.504s12.523 12.531-11.881 31.794c-19.571 15.458-4.462 24.269-.006 34.34-11.426-10.307-19.807-19.382-14.185-27.826 8.254-12.395 31.125-18.406 26.072-38.308z" />
+                                <path
+                                    d="M84.812 128.674c21.706 1.388 55.045-.771 55.836-11.044 0 0-1.518 3.894-17.941 6.983-18.529 3.488-41.386 3.082-54.938.845 0 0 2.777 2.298 17.043 3.216z" />
+                                <path
+                                    d="M139.645 147.096h-.66v-.37h1.781v.37h-.66v1.848h-.461v-1.848zm3.554.092h-.008l-.656 1.755h-.301l-.652-1.755h-.008v1.755h-.438v-2.218h.643l.604 1.569.604-1.569h.637v2.218h-.424v-1.755h-.001zM81.255 167.921c-2.047 1.774-4.211 2.772-6.154 2.772-2.768 0-4.27-1.663-4.27-4.324 0-2.881 1.608-4.989 8.044-4.989h2.379v6.541h.001zm5.65 6.374v-19.732c0-5.043-2.876-8.371-9.809-8.371-4.045 0-7.591.999-10.474 2.272l.83 3.495c2.271-.834 5.207-1.607 8.089-1.607 3.994 0 5.713 1.607 5.713 4.934v2.495h-1.996c-9.702 0-14.08 3.764-14.08 9.423 0 4.876 2.885 7.648 8.316 7.648 3.491 0 6.099-1.441 8.534-3.55l.443 2.993h4.434zM105.762 174.295h-7.045l-8.483-27.601h6.154l5.265 16.961 1.172 5.096c2.656-7.371 4.541-14.854 5.484-22.057h5.984c-1.602 9.088-4.488 19.066-8.531 27.601zM132.799 167.921c-2.053 1.774-4.217 2.772-6.156 2.772-2.768 0-4.268-1.663-4.268-4.324 0-2.881 1.609-4.989 8.041-4.989h2.383v6.541zm5.652 6.374v-19.732c0-5.043-2.885-8.371-9.811-8.371-4.049 0-7.594.999-10.477 2.272l.83 3.495c2.271-.834 5.213-1.607 8.096-1.607 3.988 0 5.709 1.607 5.709 4.934v2.495h-1.996c-9.703 0-14.078 3.764-14.078 9.423 0 4.876 2.879 7.648 8.311 7.648 3.494 0 6.098-1.441 8.539-3.55l.445 2.993h4.432zM58.983 178.985c-1.61 2.353-4.214 4.216-7.061 5.267l-2.79-3.286c2.169-1.113 4.027-2.91 4.892-4.582.745-1.49 1.056-3.406 1.056-7.992v-31.515h6.005v31.08c0 6.134-.49 8.613-2.102 11.028z" />
+                            </svg>
+                            <div class="card-text">
+                                <span>Java</span>
+                                <ul>
+                                    <li>
+                                        <p>Orientação a Objetos</p>
+                                    </li>
+                                    <li>
+                                        <p>Modelagem: Leitura e interpretação de Diagramas de Classes (UML)</p>
+                                    </li>
+                                    <li>
+                                        <p>Interfaces & Ordenação: Implementação de Interfaces e ordenação de objetos com Comparable / compareTo()</p>
+                                    </li>
+                                    <li>
+                                        <p>Estruturas de Dados: Java Collections Framework (List, Map e manipuladores de coleções)</p>
+                                    </li>
+                                    <li>
+                                        <p>Arquiteturas Modernas: Conceitos de Microsserviços (em desenvolvimento)</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-              <div class="card">
-                <img src="iconjs.png" alt="" />
-                <div class="card-text">
-                  <span>JavaScript</span>
-                  <p>Manipulação DOM</p>
-                </div>
-              </div>
+                        <div class="card">
+                            <img src="/images/iconc.png" alt="" />
+                            <div class="card-text">
+                                <span>C</span>
+                                <p>Estruturas conficionais</p>
+                            </div>
+                        </div>
 
-              <div class="card">
-                <img src="html-5.png" alt="" />
-                <div class="card-text">
-                  <span>HTML</span>
-                  <p>Estrutura de páginas web</p>
-                </div>
-              </div>
+                        <div class="card">
+                            <img src="/images/iconjs.png" alt="" />
+                            <div class="card-text">
+                                <span>JavaScript</span>
+                                <p>Manipulação DOM</p>
+                            </div>
+                        </div>
 
-              <div class="card">
-                <img src="iconcss.png" alt="" />
-                <div class="card-text">
-                  <span>CSS</span>
-                  <p>Estilização de páginas web</p>
-                </div>
-              </div>
+                        <!-- <div class="card">
+                            <img src="/images/html-5.png" alt="" />
+                            <div class="card-text">
+                                <span>HTML</span>
+                                <p>Estrutura de páginas web</p>
+                            </div>
+                        </div> -->
 
-              <div class="card">
-                <img src="sqlicon.png" alt="" />
-                <div class="card-text">
-                  <span>SQL</span>
-                  <p>Consultas</p>
-                </div>
-              </div>
+                        <div class="card">
+                            <img src="/images/iconcss.png" alt="" />
+                            <div class="card-text">
+                                <span>CSS</span>
+                                <p>Estilização de páginas web</p>
+                            </div>
+                        </div>
+                        <!-- 
+                        <div class="card">
+                            <img src="/images/sqlicon.png" alt="" />
+                            <div class="card-text">
+                                <span>SQL</span>
+                                <p>Consultas</p>
+                            </div>
+                        </div> -->
 
-              <div class="card">
-                <img src="redesicon.png" alt="" />
-                <div class="card-text">
-                  <span>Redes de computadores</span>
-                  <p>Conceitos de redes</p>
-                </div>
-              </div>
+                        <!-- <div class="card">
+                            <img src="/images/redesicon.png" alt="" />
+                            <div class="card-text">
+                                <span>Redes de computadores</span>
+                                <p>Conceitos de redes</p>
+                            </div>
+                        </div> -->
 
-            </div>
-          </article>
-        </main>
-      </div>
+                    </div>
+                </article>
+            </main>
+        </div>
     </div>
-  </body>
+</body>
+
 </html>

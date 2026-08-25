@@ -10,6 +10,7 @@
   font-weight: 350;
   font-style: normal;
 }
+
 body {
   background-color: hsl(0, 0%, 0%);
 }
@@ -38,6 +39,7 @@ body {
   background-color: hsl(240, 2%, 12%);
   align-self: stretch;
 }
+
 .container-img {
   display: flex;
   flex-direction: column;
@@ -47,25 +49,30 @@ body {
   border-bottom: 1px solid rgb(75, 74, 74);
   padding-bottom: 1.5rem;
 }
+
 .foto-perfil {
   background-color: hsl(240, 1%, 25%) 3%;
 }
+
 .foto-perfil img {
   object-fit: cover;
   border-radius: 1.5rem;
   width: 125px;
   height: 125px;
 }
+
 .info {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
 }
+
 .nome {
   font-family: "Cormorant Garamond", serif;
   font-size: 1.5rem;
 }
+
 .label {
   padding: 5px 10px;
   border-radius: 10px;
@@ -88,47 +95,140 @@ nav ul {
   border-radius: 0 1rem 0 1rem;
   border: 1px solid rgb(75, 74, 74);
 }
+
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 10px 15px;
 }
+
 li {
   list-style: none;
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 .li-info {
   display: flex;
   flex-direction: column;
 }
+
+.li-info a {
+  padding: 0;
+  color: inherit;
+}
+
 .li-info span:first-child {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 0.75rem;
   color: rgb(131, 130, 130);
 }
+
 aside ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding-top: 1rem;
 }
+
 .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
   background-color: hsl(265, 29%, 47%);
   border-radius: 8px;
 }
+
+.icon-email {
+  width: 70%;
+  stroke: #000000;
+  /* Espessura das linhas */
+  stroke-width: 2px;
+  /* Pontas das linhas arredondadas */
+  stroke-linecap: round;
+  /* Cantos/curvas arredondadas */
+  stroke-linejoin: round;
+  fill: none;
+  transition: all 0.5s ease;
+}
+
+.icon:hover .icon-email {
+  /* Nova cor ao passar o mouse */
+  stroke: #f7f4f7;
+  /* Linha fica mais grossa */
+  stroke-width: 1px;
+  /* Efeito leve de zoom */
+  transform: scale(1.1);
+}
+
+.icon-phone {
+  width: 24px;
+  stroke-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.icon:hover .icon-phone {
+  fill: #f7f4f7;
+  stroke-width: 1px;
+  transform: scale(1.1);
+}
+
+.icon-github {
+  width: 24px;
+  stroke-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.icon:hover .icon-github {
+  fill: #f7f4f7;
+  stroke-width: 1px;
+  transform: scale(1.1);
+}
+
+.icon-linkedin {
+  width: 24px;
+  stroke-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.icon:hover .icon-linkedin {
+  fill: #f7f4f7;
+  stroke-width: 1px;
+  transform: scale(1.1);
+}
+
+.link-contato {
+  display: flex;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: inherit;
+}
+
+
 nav {
   display: flex;
   justify-content: end;
 }
 
-.sobre {
-  /* font-family: "Cormorant Garamond", serif; */
+/* Transição suave para a seção */
+.secao-linguagens {
+  transition: all 0.5s ease;
+  padding: 15px;
+  border-radius: 8px;
 }
+
+/* Classe aplicada via JS ao clicar no link */
+.secao-linguagens.destaque {
+  outline: 2px solid hsl(265, 29%, 47%);
+  box-shadow: 0 0 15px hsl(265, 29%, 47%);
+  /* Efeito suave de zoom */
+  transform: scale(1.00);
+}
+
 .line {
   width: 50px;
   height: 5px;
@@ -154,20 +254,48 @@ nav {
   gap: 10px;
   border-radius: 8px;
   padding: 30px;
-  background-color: hsl(265, 29%, 47%);
+  background-color: #212121;
+  border: 1px solid #2d2d2d;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
   height: 50px;
   width: 50px;
 }
+
 .card-text {
   display: flex;
   gap: 5px;
   flex-direction: column;
   justify-content: center;
-  font-size: 1.25rem;
+  font-size: 15px;
 }
-article{
+.icon-java {
+  width: 30%;
+  fill: #007bff; 
+  transition: all 0.3s ease;
+}
+.icon-java path:nth-of-type(2),
+.icon-java path:nth-of-type(4) {
+  fill: #a10000; 
+}
+.icon-java path:nth-of-type(6) {
+  fill: #a10000; 
+}
+
+article {
   margin-top: 20px;
 }
+
+/* @media (max-width: 768px) {
+
+  .services-container {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .service-card {
+    padding: 16px;
+  }
+} */
