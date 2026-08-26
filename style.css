@@ -3,11 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-family: "JetBrains Mono", monospace;
+}
 
-.cormorant-garamond-garamond {
-  font-family: "Cormorant Garamond", serif;
+.jetbrains-mono-JetBrains {
+  font-family: "JetBrains Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 350;
+  font-weight: 100;
   font-style: normal;
 }
 
@@ -208,7 +211,6 @@ aside ul {
   color: inherit;
 }
 
-
 nav {
   display: flex;
   justify-content: end;
@@ -226,7 +228,7 @@ nav {
   outline: 2px solid hsl(265, 29%, 47%);
   box-shadow: 0 0 15px hsl(265, 29%, 47%);
   /* Efeito suave de zoom */
-  transform: scale(1.00);
+  transform: scale(1);
 }
 
 .line {
@@ -272,29 +274,55 @@ nav {
 }
 .icon-java {
   width: 30%;
-  fill: #007bff; 
+  fill: #007bff;
   transition: all 0.3s ease;
 }
 .icon-java path:nth-of-type(2),
 .icon-java path:nth-of-type(4) {
-  fill: #a10000; 
+  fill: #a10000;
 }
 .icon-java path:nth-of-type(6) {
-  fill: #a10000; 
+  fill: #a10000;
 }
 
 article {
   margin-top: 20px;
 }
-
 @media (max-width: 768px) {
-
-  .services-container {
-    grid-template-columns: 1fr;
-    gap: 12px;
+  /* Empilha o sidebar e o conteúdo principal */
+  .container {
+    flex-direction: column;
+    margin-block: 20px;
   }
 
-  .service-card {
-    padding: 16px;
+  /* Ajusta o menu para não sobrepor o texto */
+  .container-main {
+    padding: 20px;
+    padding-top: 70px; /* Dá espaço para o nav no topo */
   }
-} 
+
+  .container-main nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0; /* Ocupa toda a largura superior */
+  }
+
+  nav ul {
+    width: 100%;
+    justify-content: space-around;
+    border-radius: 1rem 1rem 0 0; /* Mantém os cantos arredondados no topo */
+    gap: 10px;
+    padding: 10px 15px;
+  }
+
+  nav ul a {
+    padding: 5px;
+    font-size: 0.9rem;
+  }
+
+  /* Ajusta o padding do card lateral */
+  .container-aside {
+    padding: 20px;
+  }
+}
