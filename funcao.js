@@ -1,4 +1,14 @@
-function destacarElemento(idElemento) {
+document.addEventListener('DOMContentLoaded', function() {
+  //seleciona url e pega o #
+  const url = window.location.href;
+  const hashIndex = url.indexOf('#');
+  if (hashIndex !== -1) {
+    const hash = url.substring(hashIndex + 1);
+    //destaca o elemento com o id correspondente ao hash
+    destacarElemento(hash);
+  }
+});
+function destacarElemento(idElemento) {  
   const elemento = document.getElementById(idElemento);
   
   if (elemento) {

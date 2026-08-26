@@ -243,7 +243,6 @@ nav {
 
 .cards {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: 15px;
   border-radius: 25px;
   margin-top: 10px;
