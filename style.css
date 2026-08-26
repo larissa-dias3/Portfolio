@@ -247,13 +247,15 @@ nav {
 }
 
 .sobre-texto {
-  margin-top: 25px;
+  margin-top: 10px;
 }
-.sobre-texto .if {
+
+.sobre-texto .instituicao {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 0.75rem;
   color: rgb(131, 130, 130);
+  margin-top: 15px;
 }
 .cards {
   display: grid;

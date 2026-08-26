@@ -6,9 +6,12 @@
     <title>Home</title>
     <link rel="stylesheet" href="style.css" />
     <script src="funcao.js"></script>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -142,67 +145,39 @@
           <nav>
             <ul>
               <li>
-                <a href="linguagens.html#linguagens">Linguagens</a>
+                <a href="linguagens#linguagens">Linguagens</a
+                >
               </li>
               <li>
-                <a href="#conhecimentos.html">Conhecimentos</a>
+                <a href="conhecimentos.html#conhecimentos">Conhecimentos</a>
               </li>
-              <li><a href="projetos.html#projetos">Projetos</a></li>
+              <li><a href="#projetos.html">Projetos</a></li>
             </ul>
           </nav>
         </header>
         <main>
-          <article id="conhecimentos" class="secao-linguagens">
-            <h2>Conhecimentos</h2>
-            <div class="cards">
-              <div class="card">
-                <img src="images/redesicon.png" alt="" />
-                <div class="card-text">
-                  <span class="name-linguagem">Redes de computadores</span>
-                  <ul>
-                    <li>
-                      <p>
-                        Compreensão dos fundamentos de redes de computadores:
-                        arquitetura em camadas (OSI/TCP-IP), endereçamento IP,
-                        roteamento, protocolos de transporte e segurança da
-                        informação.
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card">
-                <img src="images/sqlicon.png" alt="" />
-                <div class="card-text">
-                  <span class="name-linguagem">SQL</span>
-                  <p>
-                    Conhecimento prático em SGBDs relacionais: consultas
-                    avançadas, otimização com views/materialized views,
-                    programação procedural no banco, garantias ACID e
-                    concorrência.
-                  </p>
-                </div>
-              </div>
-
-              <div class="card">
-                <img src="images/linux.png" alt="" />
-                <div class="card-text">
-                  <span class="name-linguagem">Sistemas Operacionais</span>
-                  <p>
-                    Fundamentos de Sistemas Operacionais, arquiteturas de
-                    núcleo, gerência de recursos e comandos essenciais de Linux.
-                  </p>
-                </div>
-              </div>
-              <div class="card">
-                <img src="images/engenharia.png" alt="" />
-                <div class="card-text">
-                  <span class="name-linguagem">Engenharia de Software</span>
-                  <p>
-                    Modelagem de sistemas com UML (diagramas estruturais e
-                    comportamentais) e reengenharia de software.
-                  </p>
-                </div>
+          <article id="projetos" class="secao-linguagens">
+            <div class="sobre">
+              <h1>Projetos</h1>
+              <div class="line"></div>
+              <div class="sobre-texto">
+                <p class="instituicao">Residência Full-Stack</p>
+                <p>
+                  Atuação em projeto prático focado em sustentabilidade (via
+                  Programa Petrobras Socioambiental)
+                </p>
+                <p class="instituicao">
+                  Instituto da Oportunidade Social - Dell technologies
+                </p>
+                <p>
+                  Fundamentos Web & Front-End: Aplicação de HTML5 e CSS3 na
+                  criação e estruturação de interfaces modernas, responsivas e
+                  focadas na experiência do usuário. Programação Back-End:
+                  Desenvolvimento de lógica de servidor e integração de sistemas
+                  dinâmicos utilizando PHP. Visão de Ciclo Completo: Compreensão
+                  prática da comunicação entre cliente (front-end) e servidor
+                  (back-end) no desenvolvimento de aplicações web.
+                </p>
               </div>
             </div>
           </article>
