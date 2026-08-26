@@ -42,7 +42,7 @@ body {
   background-color: hsl(240, 2%, 12%);
   align-self: stretch;
 }
-.container-aside li a{
+.container-aside a{
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
