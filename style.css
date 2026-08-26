@@ -42,6 +42,13 @@ body {
   background-color: hsl(240, 2%, 12%);
   align-self: stretch;
 }
+.container-aside li a{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  display: block;
+}
 
 .container-img {
   display: flex;
