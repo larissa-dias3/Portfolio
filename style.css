@@ -29,14 +29,14 @@ body {
 
 .container-main {
   position: relative;
-  border: 1px solid rgb(75, 74, 74);
+  border: 2px solid rgb(75, 74, 74);
   border-radius: 1rem;
   padding: 30px;
   background-color: hsl(240, 2%, 12%);
 }
 
 .container-aside {
-  border: 1px solid rgb(75, 74, 74);
+  border: 2px solid rgb(75, 74, 74);
   border-radius: 1rem;
   padding: 40px 20px;
   background-color: hsl(240, 2%, 12%);
@@ -139,7 +139,7 @@ li {
 aside ul {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1rem;
   padding-top: 1rem;
 }
 
@@ -293,7 +293,7 @@ nav {
   color: rgb(131, 130, 130);
 }
 .icon-java {
-  width: 15%;
+  width: 50px;
   fill: #007bff;
   transition: all 0.3s ease;
 }
